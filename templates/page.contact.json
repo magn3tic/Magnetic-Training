@@ -59,9 +59,7 @@
     },
     "custom_liquid_9cMAFh": {
       "type": "custom-liquid",
-      "custom_css": [
-        ".hulk-powered-wrapper{display: nonne;}"
-      ],
+      "custom_css": [],
       "settings": {
         "custom_liquid": "",
         "color_scheme": "background-1",
