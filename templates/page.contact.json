@@ -18,43 +18,40 @@
     },
     "1735862126e8c67e5c": {
       "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "custom_liquid_9cMAFh": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1735864271dbdd20ba": {
-      "type": "apps",
       "blocks": {
-        "forms_inline_dCtntT": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "hulk_form_builder_form_block_EzE9Fc": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
           "settings": {
-            "form_id": "94719",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "padding_right": 0,
-            "padding_left": 0
+            "form_uuid": "7xogNbuj8s-HVKAKGCVHUg",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
           }
         }
       },
       "block_order": [
-        "forms_inline_dCtntT"
+        "hulk_form_builder_form_block_EzE9Fc"
       ],
       "settings": {
         "include_margins": true
@@ -63,8 +60,6 @@
   },
   "order": [
     "main",
-    "1735862126e8c67e5c",
-    "1735864271dbdd20ba",
-    "custom_liquid_9cMAFh"
+    "1735862126e8c67e5c"
   ]
 }
