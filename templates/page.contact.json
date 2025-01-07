@@ -56,10 +56,20 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_AqwbEz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n    window.onload = function() {\n      const elements = document.querySelectorAll('hulk-powered-wrapper');\n      elements.forEach(element => {\n        element.style.display = 'none';\n      });\n    };\n  </script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1735862126e8c67e5c"
+    "1735862126e8c67e5c",
+    "custom_liquid_AqwbEz"
   ]
 }
