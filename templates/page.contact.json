@@ -33,10 +33,20 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_beUrFY": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<sk-form><script type=\"application/json\" sk-forms data-id=\"4d7a6a6666466654\">{{ shop.metafields.squadkin_form[\"4d7a6a6666466654\"] }}</script><style sk-global-css>{{ shop.metafields.squadkin.sk_global_css }}</style><div class=\"sk-form\" sk-form-block data-token=\"4d7a6a6666466654\"></div></sk-form>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1735862126e8c67e5c"
+    "1735862126e8c67e5c",
+    "custom_liquid_beUrFY"
   ]
 }
