@@ -93,11 +93,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "319724205969189013": {
-        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-        "disabled": false,
-        "settings": {}
-      },
       "3574802870912500141": {
         "type": "shopify://apps/sc-loyalty-rewards-referrals/blocks/enable_storefront_widget/21842f98-987a-4ad6-91bf-a00b77123261",
         "disabled": false,

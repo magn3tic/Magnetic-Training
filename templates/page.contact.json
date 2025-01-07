@@ -19,34 +19,23 @@
     "1736271240ac9d2387": {
       "type": "apps",
       "blocks": {
-        "sk_advanced_form_builder_form_KPdrBM": {
-          "type": "shopify://apps/sk-advanced-form-builder/blocks/form/f3e35b58-5874-4ef2-8e03-c92cda6e49eb",
+        "k_contact_form_builder_app_embeded_q8qKe9": {
+          "type": "shopify://apps/k-contact-form-builder/blocks/app-embeded/a78e9fdb-659e-4c4a-b275-236e9dafd0d3",
           "settings": {
-            "show_form": true,
-            "form_token": "4d7a6a6666466654"
+            "popup_embedded_id": "contact-id-2422"
           }
         }
       },
       "block_order": [
-        "sk_advanced_form_builder_form_KPdrBM"
+        "k_contact_form_builder_app_embeded_q8qKe9"
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "custom_liquid_WzM47n": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script type=\"application/json\" sk-forms data-id=\"4d7a6a6666466654\">{{ shop.metafields.squadkin_form[\"4d7a6a6666466654\"] }}</script><style sk-global-css>{{ shop.metafields.squadkin.sk_global_css }}</style><div class=\"sk-form\" sk-form-block data-token=\"4d7a6a6666466654\"></div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "1736271240ac9d2387",
-    "custom_liquid_WzM47n"
+    "1736271240ac9d2387"
   ]
 }
