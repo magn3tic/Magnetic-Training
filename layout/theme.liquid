@@ -262,6 +262,26 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   {% render 'spurit_dmr_theme_snippet' %}
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".product-card .price").forEach(function (priceElement) {
+        let productId = priceElement.getAttribute("data-product-id");
+
+        fetch(`/cart.js`)
+            .then(response => response.json())
+            .then(cart => {
+                cart.items.forEach(item => {
+                    if (item.product_id == productId && item.final_line_price < item.original_line_price) {
+                        let discountPrice = item.final_line_price / item.quantity / 100;
+                        priceElement.querySelector(".discounted-price").innerText = `$${discountPrice.toFixed(2)}`;
+                    }
+                });
+            });
+    });
+});
+</script>
+
 </body>
 </html>
  
